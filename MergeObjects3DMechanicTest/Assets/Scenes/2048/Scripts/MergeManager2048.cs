@@ -11,6 +11,7 @@ public class MergeManager2048 : MonoBehaviour
         {
             TagManager2048.Instance.TagReturn(gameObject);
             Destroy(collision.gameObject);
+
         }
     }
 
